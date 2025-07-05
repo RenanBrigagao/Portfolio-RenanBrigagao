@@ -23,13 +23,13 @@ header {
     padding: 0.1em 0;
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
+    width: 100%;
     align-items: center;
     text-align: center;
     padding-top: 1rem
 }
 .cabecalho-link {
-    display:flex;
+    display: flex;
     gap: 3rem;
     font-weight: 300;
 }
@@ -52,9 +52,11 @@ nav ul li a:hover {
 
 /*Conteudo principal*/
 main {
+    
     padding: 2rem;
+    display: block;
     background-color: #fff;
-    margin: 2 rem auto;
+    margin: 2rem auto;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
